@@ -3,6 +3,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { IoIosPersonAdd } from "react-icons/io";
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 const socialLinks = [
@@ -39,16 +40,18 @@ const Hero = () => {
 <p className='leading-loose text-2xl text-white'>LET'S BUILD SOMETHING TOGETHER</p>
 <h1 className="text-4xl md:text-7xl font-bold text-white leading-loose">Hi, I'm <span className="text-yellow-400">Shahmir</span><br/> A Full-Stack Web Developer</h1>
 <p className='leading-loose mt-4 text-2xl text-yellow-400 font-medium'>I'm focused on building full stack responsive  web applications</p>
- <div className='flex gap-x-4 mt-8'>{socialLinks.map((item,index)=>{
+ <div className='flex gap-x-4  justify-center'>{socialLinks.map((item,index)=>{
     return (
-      <Link key={index} href={item.href} > <div className='w-12 h-12 bg-gray-100 rounded-full flex justify-center items-center animate-bounce hover:scale-110 duration-200 '>
+      <Link key={index} href={item.href} className='mt-8'> <div className='w-12 h-12 bg-gray-100 hover:bg-yellow-300 rounded-full flex justify-center items-center animate-bounce '>
         {item.socialPlatform}
         </div></Link>
     )
  })}</div>
-  </div>
+ </div>
+ 
+ <Link href="https://www.linkedin.com/in/syedshahmirsultan/"><div className="flex justify-center mt-12"><Image src="/images/shahmirImage.jpg" width={350} height={350} alt="Image of Syed Shahmir Sultan"  className=" rounded-full mb-10 hover:animate-pulse "/>
+ </div></Link>
 
-            <div></div>
         </section>
     );
 }
