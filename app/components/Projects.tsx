@@ -8,7 +8,7 @@ const Projects = () => {
         <section id='projects' className='mt-96 flex flex-col bg-gray-200/30 p-8'>
             {/* Section title */}
             <p className='text-yellow-400 text-start font-bold text-2xl mb-8'>PROJECTS</p>
-            <h1 className="text-3xl md:text-4xl font-bold text-white tracking-widest mt-2">What I've Built</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-white tracking-widest mt-2">What I&apos;ve Built</h1>
             
             {/* Projects container */}
             <div className="flex flex-col md:space-y-12 mt-16 w-full h-auto">
