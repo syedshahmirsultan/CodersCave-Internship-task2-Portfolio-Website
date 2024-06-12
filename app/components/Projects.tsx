@@ -9,12 +9,14 @@ const Projects = () => {
          <div className="flex flex-col md:space-y-12 mt-16 w-full h-auto">
             <div className=" flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8 w-full h-full">
             <Image src="/images/EcommerceWebsite.png" width={500} height={500} alt="Ecommerce Website" className=" w-full lg:w-1/2 h-full"/>
-            <Image src="/images/BlogWebsite.png" width={500} height={500} alt="Blog Website" className="w-full lg:w-1/2 h-full p-4"/>
+            <Image src="/images/BlogWebsite.png" width={500} height={500} alt="Blog Website" className="w-full lg:w-1/2 h-full pr-4"/>
             </div>
             <div className=" flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8   w-full h-full mt-12"> 
                 <Image src="/images/BlogWebsite-landingPage.png" width={500} height={500} alt="Blog Website Landing Page" className=" w-full lg:w-1/2 h-full"/>
-            <Image src="/images/FoodWebsite.png" width={500} height={500} alt="Food Website" className=" w-full lg:w-1/2 h-full"/>
-         </div></div>
+            <Image src="/images/FoodWebsite.png" width={500} height={500} alt="Food Website" className=" w-full lg:w-1/2 h-full pr-4"/>
+         </div>
+         <Image src="/images/TodoApp.png" alt="Todo App" width={500} height={500} className=' w-full lg:w-1/2 h-full'/>
+         </div>
         </section>
     );
 }
