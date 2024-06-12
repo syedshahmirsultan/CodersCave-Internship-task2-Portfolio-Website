@@ -20,13 +20,13 @@ const socialLinks = [
 
     },
     {
-        href:"",
+        href:"#contact",
         alt:"Email Image",
         socialPlatform:<MdOutlineEmail  size={24} color={'slate'}/>
 
     },
     {
-        href:"",
+        href:"#about",
         alt:"Image of About me symbol ",
         socialPlatform:<IoIosPersonAdd size={24} color={'slate'}/>
 
