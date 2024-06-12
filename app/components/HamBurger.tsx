@@ -1,65 +1,75 @@
-"use client"
-import { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
+"use client";
+import React, { useState } from "react";
+import { Menu, X, SquarePen,Search } from "lucide-react";
+import  Link  from 'next/link'
 
-const HamburgerMenu = () => {
+const HamburgerMenu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [searchValue,setSearchValue] = useState("");
 
-  const openMenu = () => {
-    setIsOpen(true);
-  };
-
-  const closeMenu = () => {
-    setIsOpen(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
-    <div className="relative flex md:hidden">
-      <div className="flex items-center mr-4">
-        {!isOpen ? (
-          <FaBars className="text-white text-2xl cursor-pointer" onClick={openMenu} />
-        ) : (
-          <FaTimes className="text-white text-2xl cursor-pointer" onClick={closeMenu} />
-        )}
-      </div>
+    <div className="relative md:hidden flex">
+      <button onClick={toggleMenu} className="text-white focus:outline-none mr-8">
+        {isOpen ? <X size={28}  /> : <Menu size={24} />}
+      </button>
+
       {isOpen && (
-        <div className="z-20 top-0 left-0 w-full h-screen bg-gray-800 bg-opacity-75 flex flex-col justify-center items-center space-y-6 pl-4 pr-4 fixed">
-          <button
-            className="text-white text-xl cursor-pointer hover:bg-yellow-400 px-4 py-2 rounded"
-            onClick={closeMenu}
-          >
-            Home
-          </button>
-          <button
-            className="text-white text-xl cursor-pointer hover:bg-yellow-400 px-4 py-2 rounded"
-            onClick={closeMenu}
-          >
-            About
-          </button>
-          <button
-            className="text-white text-xl cursor-pointer hover:bg-yellow-400 px-4 py-2 rounded"
-            onClick={closeMenu}
-          >
-            Skills
-          </button>
-          <button
-            className="text-white text-xl cursor-pointer hover:bg-yellow-400 px-4 py-2 rounded"
-            onClick={closeMenu}
-          >
-            Projects
-          </button>
-          <button
-            className="text-white text-xl cursor-pointer hover:bg-yellow-400 px-4 py-2 rounded"
-            onClick={closeMenu}
-          >
-            Experience
-          </button>
-          <button
-            className="text-white text-xl cursor-pointer hover:bg-yellow-400 px-4 py-2 rounded"
-            onClick={closeMenu}
-          >
-            Contact
-          </button>
+        <div className="absolute top-10 right-0 bg-blue-700/90 p-6 pr-10 rounded-lg shadow-lg mt-8">
+          
+          <ul className="flex flex-col items-center justify-center space-y-2">
+            <li className="w-96 ">
+              <Link
+                href="/"
+                className="text-white w-full hover:bg-yellow-300  p-4 rounded-lg block text-center font-semibold z-50"
+              >
+                Home
+              </Link>
+            </li>
+            <li className="w-96 ">
+              <Link
+                href="#about"
+                className="text-white hover:bg-yellow-300 w-full p-4 rounded-lg block text-center z-50 font-semibold"
+              >
+               About
+              </Link>
+            </li>
+            <li className="w-96 ">
+              <Link
+                href="#skills"
+                className="text-white hover:bg-yellow-300 w-full p-4 rounded-lg block text-center z-50 font-semibold"
+              >
+                Skills
+              </Link>
+            </li>
+            <li className="w-96 ">
+              <Link
+                href="#projects"
+                className="text-white hover:bg-yellow-300 w-full p-4 rounded-lg block text-center z-50 font-semibold"
+              >
+                Projects
+              </Link>
+            </li>
+            <li className="w-96 ">
+              <Link
+                href="#experience"
+                className="text-white hover:bg-yellow-300 w-full p-4 rounded-lg block text-center z-50 font-semibold"
+              >
+               Experience
+              </Link>
+            </li>
+            <li className="w-96 ">
+              <Link
+                href="#contact"
+                className="text-white hover:bg-yellow-300 w-full p-4 rounded-lg block text-center z-50"
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
         </div>
       )}
     </div>
@@ -67,4 +77,5 @@ const HamburgerMenu = () => {
 };
 
 export default HamburgerMenu;
+
 

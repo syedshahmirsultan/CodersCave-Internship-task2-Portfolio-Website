@@ -35,7 +35,7 @@ const socialLinks = [
 
 const Hero = () => {
     return (
-        <section className="mt-20 flex flex-col gap-y-8">
+        <section id="hero" className="mt-20 flex flex-col gap-y-8">
             <div className=" text-center space-y-4">
 <p className='leading-loose text-2xl text-white'>LET'S BUILD SOMETHING TOGETHER</p>
 <h1 className="text-4xl md:text-7xl font-bold text-white leading-loose">Hi, I'm <span className="text-yellow-400">Shahmir</span><br/> A Full-Stack Web Developer</h1>

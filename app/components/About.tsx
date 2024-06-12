@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const About = () => {
     return (
-        <section className="mt-40 flex flex-col lg:flex-row lg:justify-between space-y-12lg:space-y-1 bg-gray-100/20 p-8 pr-4 w-full">
+        <section  id='about' className="mt-96 flex flex-col lg:flex-row lg:justify-between space-y-12 lg:space-y-1 bg-gray-100/20 p-8 pr-4 w-full">
             <div className="flex flex-col space-y-2 w-full md:w-[65%]">
         <p className='text-yellow-400 text-start font-bold text-2xl mb-8'>ABOUT</p>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-100 tracking-widest mt-24">WHO  I AM </h1>
@@ -21,8 +21,8 @@ I am committed to continuously learning and integrating the latest technologies 
 
 <br/><br/>By leveraging my skills and knowledge, I strive to deliver innovative and high-quality solutions in web development. What sets me apart is my dedication to staying at the forefront of technological advancements and applying them creatively in my projects.⁤</p>  </div>
        
-    <div className="lg:w-[35%] w-full p-2 bg-gray-100 mt-12 lg:mt-0">
-        <Image src="/images/aboutme.png" width={200} height={200} alt="Imae of Laptop" className='h-full w-full rounded-lg'/>
+    <div className="lg:w-[35%] w-full p-2 bg-gray-100 mt-12 lg:mt-0 hover:scale-105 duration-200">
+        <Image src="/images/aboutme.png" width={200} height={200} alt="Imae of Laptop" className='h-full w-full rounded-lg '/>
         </div>   
         </section>
     );
