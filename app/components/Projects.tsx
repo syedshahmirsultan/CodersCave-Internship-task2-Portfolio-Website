@@ -1,22 +1,109 @@
 import React from 'react';
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
+
+// Projects component
 const Projects = () => {
     return (
         <section id='projects' className='mt-96 flex flex-col bg-gray-200/30 p-8'>
-           
-         <p className='text-yellow-400 text-start font-bold text-2xl mb-8'>PROJECTS</p>
-         <h1 className="text-3xl md:text-4xl font-bold text-white tracking-widest mt-2">What I've Built </h1>
-         <div className="flex flex-col md:space-y-12 mt-16 w-full h-auto">
-            <div className=" flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8 w-full h-full">
-            <Image src="/images/EcommerceWebsite.png" width={500} height={500} alt="Ecommerce Website" className=" w-full lg:w-1/2 h-full"/>
-            <Image src="/images/BlogWebsite.png" width={500} height={500} alt="Blog Website" className="w-full lg:w-1/2 h-full pr-4"/>
+            {/* Section title */}
+            <p className='text-yellow-400 text-start font-bold text-2xl mb-8'>PROJECTS</p>
+            <h1 className="text-3xl md:text-4xl font-bold text-white tracking-widest mt-2">What I've Built</h1>
+            
+            {/* Projects container */}
+            <div className="flex flex-col md:space-y-12 mt-16 w-full h-auto">
+
+                {/* First row of projects */}
+                <div className="flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8 w-full h-full">
+                    {/* First project card */}
+                    <div className='relative group'>
+                        <Image src="/images/EcommerceWebsite.png" width={500} height={500} alt="Ecommerce Website" className="w-full h-full"/>
+                        <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
+                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                            <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Full-Stack Ecommerce Website</h2>
+                            <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://github.com/syedshahmirsultan/Full-Stack-Ecommerce-Website">Code</Link>
+                                </button>
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://shahmir-full-stack-ecommerce-website.vercel.app/">Demo</Link>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Second project card */}
+                    <div className='relative group'>
+                        <Image src="/images/BlogWebsite.png" width={500} height={500} alt="Blog Website" className="w-full h-full"/>
+                        <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
+                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                            <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Blog Website</h2>
+                            <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://github.com/syedshahmirsultan/CodersCave-Internship-task1-Blog-Website">Code</Link>
+                                </button>
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://shahmir-blog-website.vercel.app/">Demo</Link>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Second row of projects */}
+                <div className="flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8 w-full h-full mt-12">
+                    {/* Third project card */}
+                    <div className='relative group'>
+                        <Image src="/images/BlogWebsite-landingPage.png" width={500} height={500} alt="Blog Website Landing Page" className="w-full h-full"/>
+                        <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
+                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                            <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Blog Website Landing Page</h2>
+                            <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://github.com/syedshahmirsultan/Blog_Website_LandingPage">Code</Link>
+                                </button>
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://shahmir-blog-website-landing-page.vercel.app/">Demo</Link>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Fourth project card */}
+                    <div className='relative group'>
+                        <Image src="/images/FoodWebsite.png" width={500} height={500} alt="Food Website" className="w-full h-full"/>
+                        <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
+                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                            <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Food Website Landing Page</h2>
+                            <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://github.com/syedshahmirsultan/Food-Website">Code</Link>
+                                </button>
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://shahmir-food-website.vercel.app/">Demo</Link>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Single project card for Todo App */}
+                <div className='relative group w-full mt-12 md:w-[50%]'>
+                    <Image src="/images/TodoApp.png" alt="Todo App" width={500} height={500} className='w-full h-full'/>
+                    <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
+                    <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                        <h2 className="text-xl md:text-2xl` text-white font-bold mt-1 md:mt-8">Todo App</h2>
+                        <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
+                            <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                <Link href="https://github.com/syedshahmirsultan/Full-Stack-TodoApp/tree/main">Code</Link>
+                            </button>
+                            <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                <Link href="https://github.com/syedshahmirsultan/Full-Stack-TodoApp/blob/main/README.md">Demo</Link>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className=" flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8   w-full h-full mt-12"> 
-                <Image src="/images/BlogWebsite-landingPage.png" width={500} height={500} alt="Blog Website Landing Page" className=" w-full lg:w-1/2 h-full"/>
-            <Image src="/images/FoodWebsite.png" width={500} height={500} alt="Food Website" className=" w-full lg:w-1/2 h-full pr-4"/>
-         </div>
-         <Image src="/images/TodoApp.png" alt="Todo App" width={500} height={500} className=' w-full lg:w-1/2 h-full'/>
-         </div>
         </section>
     );
 }
