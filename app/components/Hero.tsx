@@ -37,9 +37,9 @@ const Hero = () => {
     return (
         <section id="hero" className="mt-20 flex flex-col gap-y-8">
             <div className=" text-center space-y-4">
-<p className='leading-loose text-2xl text-white'>LET'S BUILD SOMETHING TOGETHER</p>
-<h1 className="text-4xl md:text-7xl font-bold text-white leading-loose">Hi, I'm <span className="text-yellow-400">Shahmir</span><br/> A Full-Stack Web Developer</h1>
-<p className='leading-loose mt-4 text-2xl text-yellow-400 font-medium'>I'm focused on building full stack responsive  web applications</p>
+<p className='leading-loose text-2xl text-white'>LET&apos;S BUILD SOMETHING TOGETHER</p>
+<h1 className="text-4xl md:text-7xl font-bold text-white leading-loose">Hi, I&apos;m <span className="text-yellow-400">Shahmir</span><br/> A Full-Stack Web Developer</h1>
+<p className='leading-loose mt-4 text-2xl text-yellow-400 font-medium'>I&apos;m focused on building full stack responsive  web applications</p>
  <div className='flex gap-x-4  justify-center'>{socialLinks.map((item,index)=>{
     return (
       <Link key={index} href={item.href} className='mt-8'> <div className='w-12 h-12 bg-gray-100 hover:bg-yellow-300 rounded-full flex justify-center items-center animate-bounce '>
