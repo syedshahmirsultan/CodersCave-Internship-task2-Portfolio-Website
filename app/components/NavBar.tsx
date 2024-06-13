@@ -27,7 +27,7 @@ href:"#contact",
 
 const NavBar = () => {
     return (
-        <nav className='sticky backdrop-blur-xl top-0 h-24 w-full'>
+        <nav className='relative backdrop-blur-xl top-0 h-24 w-full'>
         <div className='flex justify-between'>
 <Link href="/"><div className='ml-4 flex flex-col '>
 <h1 className="text-left font-bold text-5xl md:text-6xl text-white mt-2">SSS</h1>  
