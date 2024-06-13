@@ -23,7 +23,7 @@ const HamburgerMenu: React.FC = () => {
           <ul className="flex flex-col items-center justify-center space-y-2">
             <li className="w-96 ">
               <Link
-                href="/"
+                href="#hero"
                 className="text-white w-full hover:bg-yellow-300  p-4 rounded-lg block text-center font-semibold z-50"
               >
                 Home
