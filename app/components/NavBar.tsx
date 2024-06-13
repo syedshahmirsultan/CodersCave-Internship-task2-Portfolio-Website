@@ -30,8 +30,8 @@ const NavBar = () => {
         <nav className='relative backdrop-blur-xl top-0 h-24 w-full'>
         <div className='flex justify-between'>
 <Link href="/"><div className='ml-4 flex flex-col '>
-<h1 className="text-left font-bold text-5xl md:text-6xl text-white mt-2">SSS</h1>  
-<p className="text-white font-semibold text-sm  leading-tight">Syed Shahmir Sultan</p>  
+<h1 className="text-left font-bold text-5xl md:text-6xl text-white mt-2 tracking-widest">SSS</h1>  
+<p className="text-white font-semibold text-sm  tracking-tight">Syed Shahmir Sultan</p>  
 </div></Link>
 <div className='md:flex gap-x-8 hidden mr-2 mt-8'>
 {navigation.map((item,index) => {
