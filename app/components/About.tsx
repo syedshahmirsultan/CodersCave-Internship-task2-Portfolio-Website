@@ -12,7 +12,7 @@ const About = () => {
 
 <br/><br/><span className="font-semibold text-lg ">𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐈 𝐰𝐨𝐫𝐤 𝐰𝐢𝐭𝐡:</span><br/><br/>
 
-● 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝: HTML5, CSS3, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS<br/>
+● 𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Tailwind CSS<br/>
 ● 𝐁𝐚𝐜𝐤𝐞𝐧𝐝: Node.js, FastAPI, Python<br/>
 ● 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞𝐬: SQL, Postgres, Drizzle ORM, SQLModel<br/>
 ● 𝐓𝐨𝐨𝐥𝐬 & 𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬: Stripe, Sanity, Poetry, Kinde Auth<br/><br/>
