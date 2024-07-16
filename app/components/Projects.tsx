@@ -10,12 +10,11 @@ const Projects = () => {
             <h1 className="text-3xl md:text-4xl font-bold text-white tracking-widest mt-2">What I&apos;ve Built</h1>
             
             {/* Projects container */}
-            <div className="flex flex-col md:space-y-12 mt-16 w-full h-auto">
-
-                {/* First row of projects */}
+            <div className="flex flex-col space-y-12 mt-16 w-full h-auto">
+                
+                {/* Row 1 */}
                 <div className="flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8 w-full h-full">
-
-                    {/* First project card */}
+                    {/* Project card 1 */}
                     <div className='relative group'>
                         <Image src="/images/EcommerceWebsite.png" width={500} height={500} alt="Ecommerce Website" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
@@ -31,8 +30,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Second project card */}
+                    {/* Project card 2 */}
                     <div className='relative group'>
                         <Image src="/images/BlogWebsite.png" width={500} height={500} alt="Blog Website" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
@@ -48,8 +46,11 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Third project card */}
+                </div>
+                
+                {/* Row 2 */}
+                <div className="flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8 w-full h-full">
+                    {/* Project card 3 */}
                     <div className='relative group'>
                         <Image src="/images/BlogWebsite-landingPage.png" width={500} height={500} alt="Blog Website Landing Page" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
@@ -65,12 +66,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                {/* Second row of projects */}
-                <div className="flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8 w-full h-full mt-12">
-
-                    {/* Fourth project card */}
+                    {/* Project card 4 */}
                     <div className='relative group'>
                         <Image src="/images/FoodWebsite.png" width={500} height={500} alt="Food Website" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
@@ -86,8 +82,11 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Fifth project card for Todo App */}
+                </div>
+                
+                {/* Row 3 */}
+                <div className="flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8 w-full h-full">
+                    {/* Project card 5 */}
                     <div className='relative group'>
                         <Image src="/images/TodoApp.png" alt="Todo App" width={500} height={500} className='w-full h-full'/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
@@ -103,8 +102,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Sixth project card for Online Marketplace */}
+                    {/* Project card 6 */}
                     <div className='relative group'>
                         <Image src="/images/OnlineMarketplace.png" width={500} height={500} alt="Online Marketplace" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
@@ -112,7 +110,7 @@ const Projects = () => {
                             <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Full-Stack Online Marketplace Website</h2>
                             <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
                                 <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://github.com/syedshahmirsultan/Online-Marketplace">Code</Link>
+                                    <Link href="https://github.com/syedshahmirsultan/Full-Stack-Online-Marketplace-Website">Code</Link>
                                 </button>
                                 <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
                                     <Link href="https://shahmir-online-marketplace.vercel.app/">Demo</Link>
@@ -120,8 +118,11 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    {/* Seventh project card */}
+                {/* Row 4 */}
+                <div className="flex flex-col space-y-12 md:space-y-0 md:flex-row md:gap-x-8 w-full h-full">
+                    {/* Project card 7 */}
                     <div className='relative group'>
                         <Image src="/images/LandingPage.png" width={500} height={500} alt="Landing Page Website" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
@@ -137,8 +138,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Eighth project card */}
+                    {/* Project card 8 */}
                     <div className='relative group'>
                         <Image src="/images/LiveInPakistan.png" width={500} height={500} alt="LiveInPakistan Website" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
@@ -154,7 +154,6 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
 
             </div>
