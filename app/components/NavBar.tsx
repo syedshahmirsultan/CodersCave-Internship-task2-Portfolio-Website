@@ -37,7 +37,7 @@ const NavBar = () => {
 {navigation.map((item,index) => {
     return (
 <Link key={index} href={item.href} className='text-lg font-semibold  text-white overflow-hidden  group relative mr-4'>{item.title}
-<span className='w-full h-[4px] bg-yellow-400 absolute overflow-hidden inline-block translate-x-[100%] left-0 bottom-[10px] group-hover:-translate-x-0 transition-transform duration-200'></span>
+<span className='w-full h-[4px] bg-yellow-400 absolute overflow-hidden inline-block translate-x-[100%] left-0 bottom-[40px] group-hover:-translate-x-0 transition-transform duration-200'></span>
 </Link>
     )
 })
