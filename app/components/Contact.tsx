@@ -29,7 +29,7 @@ const socialLinks = [
 
 const Contact = () => {
     return (
-        <section id='contact' className='mt-96 flex flex-col bg-gray-200/30 p-8'>
+        <div id='contact' className='mt-96 flex flex-col bg-gray-200/30 p-8'>
          <p className='text-yellow-400  text-start text-2xl md:text-center mt-4 font-bold md:text-4xl'>CONTACT ME ON</p>
          <div className='flex gap-x-4 justify-start md:justify-center'>{socialLinks.map((item,index)=>{
     return (
@@ -42,7 +42,7 @@ const Contact = () => {
  <div className="mt-8  text-md md:text-xl text-white flex justify-start md:justify-center font-medium ">
 Email: <span className="text-yellow-400 ml-1">    syedshahmirsultan@gmail.com</span>
  </div>
-        </section>
+        </div>
     );
 }
 
