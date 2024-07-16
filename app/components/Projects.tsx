@@ -120,7 +120,43 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Seventh project card */}
+                    <div className='relative group'>
+                        <Image src="/images/LandingPage.png" width={500} height={500} alt="Landing Page Website" className="w-full h-full"/>
+                        <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
+                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                            <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Landing Page Website</h2>
+                            <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://github.com/syedshahmirsultan/Panaverse-LandingPage">Code</Link>
+                                </button>
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://shahmir-panaversewebsite-landing-page.vercel.app/">Demo</Link>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Eighth project card */}
+                    <div className='relative group'>
+                        <Image src="/images/LiveInPakistan.png" width={500} height={500} alt="LiveInPakistan Website" className="w-full h-full"/>
+                        <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
+                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                            <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Live In Pakistan Website</h2>
+                            <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://github.com/syedshahmirsultan/Website">Code</Link>
+                                </button>
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
+                                    <Link href="https://shahmir-website.vercel.app/">Demo</Link>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
         </div>
     );
