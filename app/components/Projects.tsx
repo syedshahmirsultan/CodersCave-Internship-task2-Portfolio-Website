@@ -19,15 +19,15 @@ const Projects = () => {
                     <div className='relative group'>
                         <Image src="/images/EcommerceWebsite.png" width={500} height={500} alt="Ecommerce Website" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
-                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                        <div className='absolute hidden group-hover:flex flex-col justify-center items-center top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white text-center duration-200 p-5'>
                             <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Full-Stack Ecommerce Website</h2>
                             <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://github.com/syedshahmirsultan/Full-Stack-Ecommerce-Website">Code</Link>
-                                </button>
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://shahmir-full-stack-ecommerce-website.vercel.app/">Demo</Link>
-                                </button>
+                                <Link href="https://github.com/syedshahmirsultan/Full-Stack-Ecommerce-Website">
+                                    <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Code</button>
+                                </Link>
+                                <Link href="https://shahmir-full-stack-ecommerce-website.vercel.app/">
+                                    <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Demo</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -36,15 +36,15 @@ const Projects = () => {
                     <div className='relative group'>
                         <Image src="/images/BlogWebsite.png" width={500} height={500} alt="Blog Website" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
-                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                        <div className='absolute hidden group-hover:flex flex-col justify-center items-center top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white text-center duration-200 p-5'>
                             <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Blog Website</h2>
                             <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://github.com/syedshahmirsultan/CodersCave-Internship-task1-Blog-Website">Code</Link>
-                                </button>
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://shahmir-blog-website.vercel.app/">Demo</Link>
-                                </button>
+                                <Link href="https://github.com/syedshahmirsultan/CodersCave-Internship-task1-Blog-Website">
+                                    <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Code</button>
+                                </Link>
+                                <Link href="https://shahmir-blog-website.vercel.app/">
+                                    <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Demo</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -56,15 +56,15 @@ const Projects = () => {
                     <div className='relative group'>
                         <Image src="/images/BlogWebsite-landingPage.png" width={500} height={500} alt="Blog Website Landing Page" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
-                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                        <div className='absolute hidden group-hover:flex flex-col justify-center items-center top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white text-center duration-200 p-5'>
                             <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Blog Website Landing Page</h2>
                             <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://github.com/syedshahmirsultan/Blog_Website_LandingPage">Code</Link>
-                                </button>
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://shahmir-blog-website-landing-page.vercel.app/">Demo</Link>
-                                </button>
+                                <Link href="https://github.com/syedshahmirsultan/Blog_Website_LandingPage">
+                                    <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Code</button>
+                                </Link>
+                                <Link href="https://shahmir-blog-website-landing-page.vercel.app/">
+                                    <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Demo</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -73,15 +73,15 @@ const Projects = () => {
                     <div className='relative group'>
                         <Image src="/images/FoodWebsite.png" width={500} height={500} alt="Food Website" className="w-full h-full"/>
                         <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
-                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
+                        <div className='absolute hidden group-hover:flex flex-col justify-center items-center top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white text-center duration-200 p-5'>
                             <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Food Website Landing Page</h2>
                             <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://github.com/syedshahmirsultan/Food-Website">Code</Link>
-                                </button>
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://shahmir-food-website.vercel.app/">Demo</Link>
-                                </button>
+                                <Link href="https://github.com/syedshahmirsultan/Food-Website">
+                                    <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Code</button>
+                                </Link>
+                                <Link href="https://shahmir-food-website.vercel.app/">
+                                    <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Demo</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -91,72 +91,40 @@ const Projects = () => {
                 <div className='relative group w-full mt-12 md:w-[50%]'>
                     <Image src="/images/TodoApp.png" alt="Todo App" width={500} height={500} className='w-full h-full'/>
                     <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
-                    <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
-                        <h2 className="text-xl md:text-2xl` text-white font-bold mt-1 md:mt-8">Todo App</h2>
+                    <div className='absolute hidden group-hover:flex flex-col justify-center items-center top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white text-center duration-200 p-5'>
+                        <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Todo App</h2>
                         <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
-                            <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                <Link href="https://github.com/syedshahmirsultan/Full-Stack-TodoApp/tree/main">Code</Link>
-                            </button>
-                            <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                <Link href="https://github.com/syedshahmirsultan/Full-Stack-TodoApp/blob/main/README.md">Demo</Link>
-                            </button>
+                            <Link href="https://github.com/syedshahmirsultan/Full-Stack-TodoApp/tree/main">
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Code</button>
+                            </Link>
+                            <Link href="https://github.com/syedshahmirsultan/Full-Stack-TodoApp/blob/main/README.md">
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Demo</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
-                {/*Sixth Project Card */}
+                
+                {/* Sixth project card */}
                 <div className='relative group'>
-                        <Image src="/images/OnlineMarketplace.png" width={500} height={500} alt="Blog Website" className="w-full h-full"/>
-                        <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
-                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
-                            <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Full-Stack Online Marketplace Website</h2>
-                            <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://github.com/syedshahmirsultan/Full-Stack-Online-Marketplace">Code</Link>
-                                </button>
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://shahmir-full-stack-online-marketplace.vercel.app/">Demo</Link>
-                                </button>
-                            </div>
+                    <Image src="/images/OnlineMarketplace.png" width={500} height={500} alt="Online Marketplace" className="w-full h-full"/>
+                    <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
+                    <div className='absolute hidden group-hover:flex flex-col justify-center items-center top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white text-center duration-200 p-5'>
+                        <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Online Marketplace</h2>
+                        <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
+                            <Link href="https://github.com/syedshahmirsultan/Online_Marketplace">
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Code</button>
+                            </Link>
+                            <Link href="https://shahmir-online-marketplace.vercel.app/">
+                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">Demo</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
-             {/*Seventh Project Card */}
-            <div className='relative group'>
-                        <Image src="/images/LandingPage.png" width={500} height={500} alt="Blog Website" className="w-full h-full"/>
-                        <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
-                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
-                            <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Landing Page Website</h2>
-                            <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://github.com/syedshahmirsultan/Panaverse-LandingPage">Code</Link>
-                                </button>
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://shahmir-panaversewebsite-landing-page.vercel.app/">Demo</Link>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        {/*Eight Project Card*/}
-        <div className='relative group'>
-                        <Image src="/images/LiveInPakistan.png" width={500} height={500} alt="Blog Website" className="w-full h-full"/>
-                        <div className='hover:bg-black/20 top-0 left-0 absolute w-full h-full group-hover:hidden duration-200'/>
-                        <div className='absolute hidden group-hover:inline-block top-0 left-0 h-full w-full bg-opacity-80 bg-blue-700 backdrop-2xl text-white justify-center items-center text-center duration-200 p-5'>
-                            <h2 className="text-xl md:text-2xl text-white font-bold mt-1 md:mt-8">Live In Pakistan Website</h2>
-                            <div className="flex mt-8 justify-center gap-x-4 md:gap-x-8">
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://github.com/syedshahmirsultan/Website">Code</Link>
-                                </button>
-                                <button className="text-white bg-black px-2 py-1 md:px-4 md:py-2 rounded-lg">
-                                    <Link href="https://shahmir-website.vercel.app/">Demo</Link>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     );
-}
+};
 
 export default Projects;
+
