@@ -35,7 +35,7 @@ const socialLinks = [
 
 const Hero = () => {
     return (
-        <section id="hero" className="mt-20 flex flex-col gap-y-8">
+        <div id="hero" className="mt-20 flex flex-col gap-y-8">
             <div className=" text-center space-y-4">
 <p className='leading-loose text-2xl text-white'>LET&apos;S BUILD SOMETHING TOGETHER</p>
 <h1 className="text-4xl md:text-7xl font-bold text-white leading-loose">Hi, I&apos;m <span className="text-yellow-400">Shahmir</span><br/> A Full-Stack Web Developer</h1>
@@ -52,7 +52,7 @@ const Hero = () => {
  <Link href="https://www.linkedin.com/in/syedshahmirsultan/"><div className="flex justify-center mt-12"><Image src="/images/shahmirImage.jpg" width={350} height={350} alt="Image of Syed Shahmir Sultan"  className=" rounded-full mb-10 hover:animate-pulse "/>
  </div></Link>
 
-        </section>
+        </div>
     );
 }
 
