@@ -73,7 +73,7 @@ const skillsData = [
 
 const Skills = () => {
     return (
-        <section id='skills' className='mt-96 flex flex-col bg-gray-200/30 p-8'>
+        <div id='skills' className='mt-96 flex flex-col bg-gray-200/30 p-8'>
          <p className='text-yellow-400 text-start font-bold text-2xl mb-8'>SKILLS</p>
          <h1 className="text-3xl md:text-4xl font-bold text-gray-100 tracking-widest mt-2">What I Can Do </h1>
          <div className="grid grid-cols-2 lg:grid-cols-3 w-full gap-x-8 gap-y-12 mt-12">
@@ -86,7 +86,7 @@ const Skills = () => {
  })
 }
          </div>
-        </section>
+        </div>
     );
 }
 
